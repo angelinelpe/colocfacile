@@ -1,0 +1,7 @@
+coloc:
+    resource: "@colocBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
